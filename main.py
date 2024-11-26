@@ -128,4 +128,4 @@ def processar_planilha(file_path, file_ext, numeros_para_remover, coluna_contato
             df_part.to_excel(output_path, index=False)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    #app.run(debug=True)
